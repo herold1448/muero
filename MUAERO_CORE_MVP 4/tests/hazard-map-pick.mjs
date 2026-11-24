@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import * as THREE from '../vendor/three.module.js';
+import {CampusRenderer} from '../src/renderer.js';
+import {CAMPUS,toLL} from '../src/data.js';
+
+const callbacks={},canvas={getBoundingClientRect:()=>({left:0,top:0,width:800,height:600}),setPointerCapture(){},addEventListener:(name,fn)=>callbacks[name]=fn};
+const r=Object.create(CampusRenderer.prototype);r.canvas=canvas;r.viewport={width:800,height:600};r.terrain=null;r.reportGroup=new THREE.Group();r.draftGroup=new THREE.Group();
+r.camera=new THREE.PerspectiveCamera(60,800/600,.3,1000);r.camera.position.set(0,28,35);r.camera.lookAt(0,0,0);r.camera.updateMatrixWorld();
+const report={id:'A',lat:CAMPUS.lat,lng:CAMPUS.lng,status:'REPORTED',category:'construction'};
+r.updateReports([report]);r.reportGroup.updateMatrixWorld(true);
+const center=new THREE.Vector3(0,2.5,0).project(r.camera),x=(center.x+1)*400,y=(1-center.y)*300;
+assert.equal(r.pickReport(x,y)?.id,'A');
+assert.equal(r.pickReport(x+20,y)?.id,'A','finger-sized 3D pin hit area');
+r.setDraftReport({x:3,z:2});assert.equal(r.draftGroup.children.length,1);assert.equal(r.draftGroup.children[0].position.x,3);
+r.setDraftReport(null);assert.equal(r.draftGroup.children.length,0);
+r._listeners();let buildingClicks=0,picks=0;r.pickBuilding=()=>{buildingClicks++;return report;};r.onBuilding=()=>{};r.onPick=p=>{picks++;const ll=toLL(p);assert.ok(Number.isFinite(ll.lat)&&Number.isFinite(ll.lng));};
+r.locationPickMode=true;callbacks.pointerdown({pointerId:1,clientX:400,clientY:300});callbacks.pointerup({clientX:400,clientY:300});
+assert.equal(buildingClicks,0);assert.equal(picks,1);
+r.updateReports([{...report,status:'RESOLVED'}]);assert.equal(r.reportGroup.children.length,0);
+console.log('PASS 3D report pin raycast, draft coordinate, map pick without building-click conflict, resolved pin hidden');

@@ -1,0 +1,18 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {parseOSM,combine,toLL} from '../src/data.js';
+import {buildGraph,findRoute} from '../src/routing.js';
+import {findBuildingApproach} from '../src/approach.js';
+import {inspectData} from '../src/accessibility.js';
+const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url)));
+const data=combine(parseOSM(read('../data/campus_paths.json')),parseOSM(read('../data/campus_buildings.json'),{includePaths:false}));
+const graph=buildGraph(data),a=data.places.find(p=>p.name==='경영대 2호관'),b=data.places.find(p=>p.name==='중앙도서관');
+const aa=findBuildingApproach(data,graph,a),bb=findBuildingApproach(data,graph,b);
+const route=findRoute(graph,aa.point,bb.point);
+const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+const columns=['기준구간 ID','OSM way ID','원본 분류','길이(m)','시작 위도','시작 경도','끝 위도','끝 경도','인도 실존 확인','차도 분리 확인','길폭 실측(m)','경사 실측(%)','시작 턱(cm)','끝 턱(cm)','노면','장애물','건물 출입구 연결','사진파일','조사일','조사자','현장검증 상태','비고'];
+const rows=route.edgeSegments.map((e,i)=>{const s=toLL(e.a),t=toLL(e.b);return [e.segmentId,e.wayId,e.category,e.meters.toFixed(2),s.lat.toFixed(7),s.lng.toFixed(7),t.lat.toFixed(7),t.lng.toFixed(7),'','','','','','','','','','','','','미확인',''];});
+mkdirSync(new URL('../surveys/',import.meta.url),{recursive:true});
+writeFileSync(new URL('../surveys/first-route-field-checklist.csv',import.meta.url),'\ufeff'+[columns,...rows].map(r=>r.map(quote).join(',')).join('\n'),'utf8');
+const audit={generated:'2026-11-20 (local source snapshot)',source:'OSM Overpass raw JSON · © OpenStreetMap contributors / ODbL',footwayWays:data.ways.length,buildingWays:data.buildings.length,classification:inspectData(data).counts,route:{from:a.name,to:b.name,routeEndpointPolicy:'near-footprint OSM path candidate; NO surveyed entrances',distanceM:Math.round(route.length),unknownMeters:Math.round(route.unknownMeters),fieldVerifiedMeters:Math.round(route.confirmedMeters),crossingMeters:Math.round(route.crossingMeters),segments:route.edgeSegments.length,startApproach:aa.description,endApproach:bb.description},knownLimitations:['일반 자동차 도로 원본 미첨부','전체 인도 폭/턱/경사 실측 없음','건물 출입구 미검증','현장 GPS 주행 미검증','브라우저 자동 검증 차단']};
+writeFileSync(new URL('../exports/v7-route-audit.json',import.meta.url),JSON.stringify(audit,null,2),'utf8');
+console.log('Wrote field checklist',rows.length,'sections; route',route.length,'m');

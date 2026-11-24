@@ -1,0 +1,19 @@
+{
+  "area": "전남대학교 광주캠퍼스 주변 OSM bbox (캠퍼스 경계 아님)",
+  "data_timestamp": "2026-11-19",
+  "path_count": 928,
+  "building_count": 1422,
+  "groups": {
+    "shared": 12,
+    "stairs": 36,
+    "sidewalk": 364,
+    "path": 353,
+    "crossing": 155,
+    "pedestrian": 8
+  },
+  "building_with_levels": 237,
+  "path_with_width": 0,
+  "path_with_kerb": 0,
+  "path_with_incline_tag": 19,
+  "warning": "공개 OSM 속성에 기반한 분류로 휠체어 통행 안전성 검증자료가 아님. crossings also lack curb measurements."
+}

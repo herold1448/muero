@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';
+import {makeDemo,parseOSM,combine,toXY} from '../src/data.js';
+import {buildGraph,findRoute,canUse,atDistance} from '../src/routing.js';
+import {findBuildingApproach} from '../src/approach.js';
+const demo=makeDemo();assert(demo.buildings.length>=10);assert(demo.places.length>=10);let graph=buildGraph(demo,{gradeLimit:6});const route=findRoute(graph,findBuildingApproach(demo,graph,demo.places[0]).point,findBuildingApproach(demo,graph,demo.places.at(-1)).point);assert(route.length>100 && route.points.length>2);assert(graph.skipped>0);assert(!canUse({highway:'steps'}));assert(!canUse({highway:'path',incline:'15%'},6));assert(canUse({highway:'footway',incline:'4%'},6));const p=atDistance(route,route.length/2);assert(Number.isFinite(p.x));
+const osm={elements:[{type:'way',id:1,nodes:[1,2,3],geometry:[{lat:35.176,lon:126.906},{lat:35.1761,lon:126.9061},{lat:35.1762,lon:126.9062}],tags:{highway:'footway'}},{type:'way',id:2,nodes:[5,6,7,5],geometry:[{lat:35.176,lon:126.907},{lat:35.176,lon:126.9072},{lat:35.1762,lon:126.9072},{lat:35.176,lon:126.907}],tags:{building:'university',name:'예제건물','building:levels':'3'}}]};
+const real=parseOSM(osm);assert.equal(real.ways.length,1);assert.equal(real.buildings.length,1);assert.equal(real.places[0].name,'예제건물');assert.equal(combine(real,real).buildings.length,1);console.log('PASS demo route',Math.round(route.length),'m',route.points.length,'points; real OSM parsed');

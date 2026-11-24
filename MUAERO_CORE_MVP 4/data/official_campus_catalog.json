@@ -1,0 +1,457 @@
+{
+  "source": "https://mba.jnu.ac.kr/mba_eng/20496/subview.do",
+  "retrieved": "2026-11-23",
+  "scope": "official labeled building names; no georeferenced footprints",
+  "entries": [
+    {
+      "code": "A01",
+      "name": "법학전문대학원 1호관",
+      "english": "Law School 1"
+    },
+    {
+      "code": "A02",
+      "name": "프라임관",
+      "english": "Prime Hall"
+    },
+    {
+      "code": "A03",
+      "name": "법학전문대학원 2호관",
+      "english": "Law School 2"
+    },
+    {
+      "code": "A04",
+      "name": "제2학생마루",
+      "english": "Student maru 2"
+    },
+    {
+      "code": "A05",
+      "name": "사회과학대학관",
+      "english": "Social Sciences"
+    },
+    {
+      "code": "A06",
+      "name": "농업생명과학대학 3호관",
+      "english": "College of Agriculture and life Sciences 3"
+    },
+    {
+      "code": "A07",
+      "name": "농업생명과학대학 2호관",
+      "english": "College of Agriculture and life Sciences 2"
+    },
+    {
+      "code": "A08",
+      "name": "농업생명과학대학 4호관",
+      "english": "College of Agriculture and life Sciences 4"
+    },
+    {
+      "code": "A09",
+      "name": "농업생명과학대학 1호관",
+      "english": "College of Agriculture and life Sciences 1"
+    },
+    {
+      "code": "A10",
+      "name": "생활관 8호관",
+      "english": "Residence Hall 8"
+    },
+    {
+      "code": "A11",
+      "name": "생활관 7호관",
+      "english": "Residence Hall 7"
+    },
+    {
+      "code": "A12",
+      "name": "농업전문창업보육센터",
+      "english": "Agribusiness Incubation Center"
+    },
+    {
+      "code": "A13",
+      "name": "농업실습교육원",
+      "english": "Institute for Agricultural Practice Education"
+    },
+    {
+      "code": "A14",
+      "name": "농업생명과학대학 5호관",
+      "english": "College of Agriculture and life Sciences 5"
+    },
+    {
+      "code": "A15",
+      "name": "동물병원",
+      "english": "Animal Hospital"
+    },
+    {
+      "code": "A16",
+      "name": "수의과대학 1호관",
+      "english": "College of Veterinary Medicine 1"
+    },
+    {
+      "code": "A17",
+      "name": "실험동물사",
+      "english": "Experimental Animal House"
+    },
+    {
+      "code": "A18",
+      "name": "수의과대학 2호관",
+      "english": "College of Veterinary Medicine 2"
+    },
+    {
+      "code": "A19",
+      "name": "사범대학부설고등학교",
+      "english": "CNU High School"
+    },
+    {
+      "code": "A20",
+      "name": "사범대학부설중학교",
+      "english": "CNU Middle School"
+    },
+    {
+      "code": "A21",
+      "name": "사범대학부설고등학교생활관",
+      "english": "CNU High School Residence Hall"
+    },
+    {
+      "code": "A22",
+      "name": "사범대학부설고등학교체육관",
+      "english": "CNU High School Sports Center"
+    },
+    {
+      "code": "A23",
+      "name": "치의학전문대학원임상교육관",
+      "english": "School of Dentistry Clinical Dental Education Building"
+    },
+    {
+      "code": "A24",
+      "name": "친환경농업연구소",
+      "english": "Enviroment Agriculture Laboratory"
+    },
+    {
+      "code": "A25",
+      "name": "치의학전문대학원교육연구관",
+      "english": "School of Dentistry Dental Education and Research Building"
+    },
+    {
+      "code": "B01",
+      "name": "용봉관",
+      "english": "Yongbong Building"
+    },
+    {
+      "code": "B02",
+      "name": "도서관본관",
+      "english": "Main Library"
+    },
+    {
+      "code": "B03",
+      "name": "인문대학 3호관",
+      "english": "College of Humanities 3"
+    },
+    {
+      "code": "B04",
+      "name": "경영대학 1호관",
+      "english": "College of Administration 1"
+    },
+    {
+      "code": "B05",
+      "name": "경영대학 2호관",
+      "english": "College of Administration 2"
+    },
+    {
+      "code": "B06",
+      "name": "진리관",
+      "english": "Jinli Building"
+    },
+    {
+      "code": "B07",
+      "name": "인문대학 1호관",
+      "english": "College of Humanities 1"
+    },
+    {
+      "code": "B08",
+      "name": "인문대학 2호관",
+      "english": "College of Humanities 2"
+    },
+    {
+      "code": "B09",
+      "name": "미래 1호관",
+      "english": "Mirae Building 1"
+    },
+    {
+      "code": "B10",
+      "name": "도서관별관",
+      "english": "Library Annex"
+    },
+    {
+      "code": "B11",
+      "name": "도서관열람실",
+      "english": "Library Reading Room"
+    },
+    {
+      "code": "B12",
+      "name": "정보화본부",
+      "english": "University Computing Center"
+    },
+    {
+      "code": "B13",
+      "name": "창조관",
+      "english": "Changjo Building"
+    },
+    {
+      "code": "B14",
+      "name": "학군단",
+      "english": "Reserve Officers Training Corps"
+    },
+    {
+      "code": "B15",
+      "name": "미래교육관",
+      "english": "Future Education Building"
+    },
+    {
+      "code": "B16",
+      "name": "사범대학 교육융합관",
+      "english": "Education Convergence Building"
+    },
+    {
+      "code": "B17",
+      "name": "예술대학 1호관",
+      "english": "College of Arts 1"
+    },
+    {
+      "code": "B18",
+      "name": "AI 융합대학",
+      "english": "College of AI Convergence"
+    },
+    {
+      "code": "B19",
+      "name": "예술대학 2호관",
+      "english": "College of Arts 2"
+    },
+    {
+      "code": "B20",
+      "name": "예술대학 3호관",
+      "english": "College of Arts 3"
+    },
+    {
+      "code": "B21",
+      "name": "생활관 9호관",
+      "english": "Residence Hall 9"
+    },
+    {
+      "code": "B22",
+      "name": "예술대학 조형관",
+      "english": "Sculpture Building"
+    },
+    {
+      "code": "B23",
+      "name": "산학협력 3호관",
+      "english": "Industry-Academic Cooperation Center 3"
+    },
+    {
+      "code": "B24",
+      "name": "산학협력 2호관",
+      "english": "Industry-Academic Cooperation Center 2"
+    },
+    {
+      "code": "B25",
+      "name": "G&R Hub",
+      "english": "Global Research Hub"
+    },
+    {
+      "code": "B26",
+      "name": "정보마루",
+      "english": "Jeongbo maru"
+    },
+    {
+      "code": "B27",
+      "name": "스토리움",
+      "english": "Storium"
+    },
+    {
+      "code": "B28",
+      "name": "만들마루",
+      "english": "Mandeul maru"
+    },
+    {
+      "code": "C01",
+      "name": "생활관 3호관",
+      "english": "Residence Hall 3"
+    },
+    {
+      "code": "C02",
+      "name": "생활관 4호관",
+      "english": "Residence Hall 4"
+    },
+    {
+      "code": "C03",
+      "name": "생활관 관리동",
+      "english": "Residence & Facilities Management"
+    },
+    {
+      "code": "C04",
+      "name": "미래 2호관",
+      "english": "Mirae Building 2"
+    },
+    {
+      "code": "C05",
+      "name": "미래 3호관",
+      "english": "Mirae Building 3"
+    },
+    {
+      "code": "C06",
+      "name": "파워플랜트",
+      "english": "Power Plant"
+    },
+    {
+      "code": "C07",
+      "name": "산학협력 1호관",
+      "english": "Industry-Academic Cooperation Center 1"
+    },
+    {
+      "code": "C08",
+      "name": "엔진실습동",
+      "english": "Engine Test Laboratories"
+    },
+    {
+      "code": "C09",
+      "name": "자동차중량실험동",
+      "english": "Mechanical Engineering Research Building"
+    },
+    {
+      "code": "C10",
+      "name": "공과대학 1호관",
+      "english": "Automotive Engineering Building"
+    },
+    {
+      "code": "C11",
+      "name": "공과대학 6호관",
+      "english": "College of Engineering 6"
+    },
+    {
+      "code": "C12",
+      "name": "공과대학 2호관",
+      "english": "College of Engineering 2"
+    },
+    {
+      "code": "C13",
+      "name": "공과대학 4호관",
+      "english": "College of Engineering 4"
+    },
+    {
+      "code": "C14",
+      "name": "공과대학 7호관",
+      "english": "College of Engineering 7"
+    },
+    {
+      "code": "C15",
+      "name": "공과대학 3호관",
+      "english": "College of Engineering 3"
+    },
+    {
+      "code": "C16",
+      "name": "공과대학 5호관",
+      "english": "College of Engineering 5"
+    },
+    {
+      "code": "C17",
+      "name": "사범대학 과학교육관",
+      "english": "Science Education Building"
+    },
+    {
+      "code": "D01",
+      "name": "한국공룡연구센터",
+      "english": "Korea Dinosaur Research Center"
+    },
+    {
+      "code": "D02",
+      "name": "치의학전문대학원기초교육관",
+      "english": "School of Dentistry Basic Dental Education Building"
+    },
+    {
+      "code": "D03",
+      "name": "어린이집",
+      "english": "Daycare Center"
+    },
+    {
+      "code": "D04",
+      "name": "생활과학대학관",
+      "english": "College of Human Ecology"
+    },
+    {
+      "code": "D05",
+      "name": "사범대학 체육교육관",
+      "english": "Physical Education Building"
+    },
+    {
+      "code": "D06",
+      "name": "체육관",
+      "english": "Sprots Center"
+    },
+    {
+      "code": "D07",
+      "name": "박물관",
+      "english": "University Museum"
+    },
+    {
+      "code": "D08",
+      "name": "약학대학 2호관",
+      "english": "College of Pharmacy 2"
+    },
+    {
+      "code": "D09",
+      "name": "약학대학 1호관",
+      "english": "College of Pharmacy 1"
+    },
+    {
+      "code": "D10",
+      "name": "기초과학특성화과학관",
+      "english": "Basic Science Specialization Building"
+    },
+    {
+      "code": "D11",
+      "name": "공동실험실습관",
+      "english": "Center For Research Facilities"
+    },
+    {
+      "code": "D12",
+      "name": "자연과학대학 3호관",
+      "english": "College of Natural Sciences 3"
+    },
+    {
+      "code": "D13",
+      "name": "자연과학대학 2호관",
+      "english": "College of Natural Sciences 2"
+    },
+    {
+      "code": "D14",
+      "name": "자연과학대학 1호관",
+      "english": "College of Natural Sciences 1"
+    },
+    {
+      "code": "D15",
+      "name": "한국기초과학지원연구원",
+      "english": "Korea Basic Science Institute"
+    },
+    {
+      "code": "D16",
+      "name": "자연과학대학 4호관",
+      "english": "College of Natural Sciences 4"
+    },
+    {
+      "code": "D17",
+      "name": "용지관(경영전문대학원)",
+      "english": "Yongji Hall(Graduate School of Business )"
+    },
+    {
+      "code": "D18",
+      "name": "대학본부",
+      "english": "University Administration"
+    },
+    {
+      "code": "D19",
+      "name": "민주마루",
+      "english": "Minju maru"
+    },
+    {
+      "code": "D20",
+      "name": "제1학생마루",
+      "english": "Student maru 1"
+    }
+  ]
+}

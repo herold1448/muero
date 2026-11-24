@@ -1,0 +1,36 @@
+{
+  "generated": "2026-11-20 (local source snapshot)",
+  "source": "OSM Overpass raw JSON · © OpenStreetMap contributors / ODbL",
+  "footwayWays": 928,
+  "buildingWays": 1422,
+  "classification": {
+    "sidewalk": 364,
+    "crossing": 155,
+    "pedestrian": 8,
+    "path": 353,
+    "stairs": 36,
+    "shared": 12,
+    "road": 0,
+    "cycling": 0,
+    "unknown": 0
+  },
+  "route": {
+    "from": "경영대 2호관",
+    "to": "중앙도서관",
+    "routeEndpointPolicy": "near-footprint OSM path candidate; NO surveyed entrances",
+    "distanceM": 262,
+    "unknownMeters": 262,
+    "fieldVerifiedMeters": 0,
+    "crossingMeters": 11,
+    "segments": 18,
+    "startApproach": "건물 주변 보행로 후보 · 실제 출입구 미확인 (건물 외곽과 약 0.0m)",
+    "endApproach": "건물 주변 보행로 후보 · 실제 출입구 미확인 (건물 외곽과 약 0.0m)"
+  },
+  "knownLimitations": [
+    "일반 자동차 도로 원본 미첨부",
+    "전체 인도 폭/턱/경사 실측 없음",
+    "건물 출입구 미검증",
+    "현장 GPS 주행 미검증",
+    "브라우저 자동 검증 차단"
+  ]
+}

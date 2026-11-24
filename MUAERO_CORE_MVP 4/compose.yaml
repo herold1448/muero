@@ -1,0 +1,33 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      MUAERO_PUBLIC: "1"
+      MUAERO_TRUST_PROXY: "1"
+      MUAERO_HAZARD_DIR: /var/lib/muaero/state
+      MUAERO_ADMIN_PIN: ${MUAERO_ADMIN_PIN:?Set a 12+ character PIN in .env}
+      PORT: "4173"
+    volumes:
+      - muaero_state:/var/lib/muaero/state
+    expose:
+      - "4173"
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      MUAERO_DOMAIN: ${MUAERO_DOMAIN:?Set a domain in .env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  muaero_state:
+  caddy_data:
+  caddy_config:

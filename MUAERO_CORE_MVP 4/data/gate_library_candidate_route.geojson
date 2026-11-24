@@ -1,0 +1,1500 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "MUAERO gate path candidate to Main Library perimeter",
+    "coordinateSystem": "EPSG:4326; longitude,latitude",
+    "totalLengthApproxM": 821.36,
+    "status": "unverified exploration-only; not a wheelchair-safe route",
+    "gateCandidateLonLat": [
+      126.9046448,
+      35.1723634
+    ],
+    "gateAnchorEvidence": "OSM way 1120956407 southern endpoint, gate position unconfirmed",
+    "destinationEvidence": "건물 주변 보행로 후보 · 실제 출입구 미확인 (건물 외곽과 약 0.0m)",
+    "excludedOSMWayIds": [
+      1120956407
+    ],
+    "osmAttribution": "© OpenStreetMap contributors, ODbL 1.0"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "candidate:1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9046448,
+            35.1723634
+          ],
+          [
+            126.9046932,
+            35.1723997
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554458771",
+        "segmentId": "554458771:4",
+        "kind": "sidewalk",
+        "approxLengthM": 5.97,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9046932,
+            35.1723997
+          ],
+          [
+            126.9047669,
+            35.1724859
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554458771",
+        "segmentId": "554458771:3",
+        "kind": "sidewalk",
+        "approxLengthM": 11.69,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:3",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9047669,
+            35.1724859
+          ],
+          [
+            126.9048965,
+            35.1724988
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "699899708",
+        "segmentId": "699899708:1",
+        "kind": "crossing",
+        "approxLengthM": 11.87,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:4",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9048965,
+            35.1724988
+          ],
+          [
+            126.9050317,
+            35.1725115
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "699899708",
+        "segmentId": "699899708:2",
+        "kind": "crossing",
+        "approxLengthM": 12.37,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:5",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9050317,
+            35.1725115
+          ],
+          [
+            126.9051975,
+            35.1725439
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "699899709",
+        "segmentId": "699899709:1",
+        "kind": "sidewalk",
+        "approxLengthM": 15.49,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:6",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9051975,
+            35.1725439
+          ],
+          [
+            126.9052535,
+            35.1726146
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "699899709",
+        "segmentId": "699899709:2",
+        "kind": "sidewalk",
+        "approxLengthM": 9.37,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:7",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9052535,
+            35.1726146
+          ],
+          [
+            126.9052724,
+            35.1726986
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "699899710",
+        "segmentId": "699899710:1",
+        "kind": "crossing",
+        "approxLengthM": 9.5,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:8",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9052724,
+            35.1726986
+          ],
+          [
+            126.9052383,
+            35.1727124
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1133066142",
+        "segmentId": "1133066142:4",
+        "kind": "path",
+        "approxLengthM": 3.46,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:9",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9052383,
+            35.1727124
+          ],
+          [
+            126.9051892,
+            35.1727782
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1133066142",
+        "segmentId": "1133066142:3",
+        "kind": "path",
+        "approxLengthM": 8.57,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:10",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9051892,
+            35.1727782
+          ],
+          [
+            126.9051922,
+            35.1728122
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1133066142",
+        "segmentId": "1133066142:2",
+        "kind": "path",
+        "approxLengthM": 3.79,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:11",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9051922,
+            35.1728122
+          ],
+          [
+            126.9051953,
+            35.1728484
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1133066142",
+        "segmentId": "1133066142:1",
+        "kind": "path",
+        "approxLengthM": 4.04,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:12",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9051953,
+            35.1728484
+          ],
+          [
+            126.9052445,
+            35.1729544
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:19",
+        "kind": "sidewalk",
+        "approxLengthM": 12.61,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:13",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9052445,
+            35.1729544
+          ],
+          [
+            126.9052998,
+            35.1730737
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:18",
+        "kind": "sidewalk",
+        "approxLengthM": 14.19,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:14",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9052998,
+            35.1730737
+          ],
+          [
+            126.9053151,
+            35.1731068
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:17",
+        "kind": "sidewalk",
+        "approxLengthM": 3.93,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:15",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9053151,
+            35.1731068
+          ],
+          [
+            126.9053844,
+            35.173272
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:16",
+        "kind": "sidewalk",
+        "approxLengthM": 19.42,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:16",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9053844,
+            35.173272
+          ],
+          [
+            126.9056894,
+            35.1739986
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:15",
+        "kind": "sidewalk",
+        "approxLengthM": 85.42,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:17",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9056894,
+            35.1739986
+          ],
+          [
+            126.9057032,
+            35.1740316
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:14",
+        "kind": "sidewalk",
+        "approxLengthM": 3.88,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:18",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9057032,
+            35.1740316
+          ],
+          [
+            126.9060784,
+            35.1749255
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:13",
+        "kind": "sidewalk",
+        "approxLengthM": 105.08,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:19",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9060784,
+            35.1749255
+          ],
+          [
+            126.9061023,
+            35.174948
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:12",
+        "kind": "sidewalk",
+        "approxLengthM": 3.31,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:20",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9061023,
+            35.174948
+          ],
+          [
+            126.9061292,
+            35.1749734
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:11",
+        "kind": "sidewalk",
+        "approxLengthM": 3.74,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:21",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9061292,
+            35.1749734
+          ],
+          [
+            126.906222,
+            35.1750148
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:10",
+        "kind": "sidewalk",
+        "approxLengthM": 9.61,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:22",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.906222,
+            35.1750148
+          ],
+          [
+            126.9063351,
+            35.1750526
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:9",
+        "kind": "sidewalk",
+        "approxLengthM": 11.11,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:23",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9063351,
+            35.1750526
+          ],
+          [
+            126.9064524,
+            35.1750608
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:8",
+        "kind": "sidewalk",
+        "approxLengthM": 10.7,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:24",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9064524,
+            35.1750608
+          ],
+          [
+            126.9065747,
+            35.1750594
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:7",
+        "kind": "sidewalk",
+        "approxLengthM": 11.12,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:25",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9065747,
+            35.1750594
+          ],
+          [
+            126.9066579,
+            35.1750476
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554463325",
+        "segmentId": "554463325:6",
+        "kind": "sidewalk",
+        "approxLengthM": 7.67,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:26",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9066579,
+            35.1750476
+          ],
+          [
+            126.9067179,
+            35.1751449
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1132460191",
+        "segmentId": "1132460191:2",
+        "kind": "crossing",
+        "approxLengthM": 12.12,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:27",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067179,
+            35.1751449
+          ],
+          [
+            126.9067547,
+            35.1752046
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1132460191",
+        "segmentId": "1132460191:1",
+        "kind": "crossing",
+        "approxLengthM": 7.43,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:28",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067547,
+            35.1752046
+          ],
+          [
+            126.9067358,
+            35.1752262
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1132460163",
+        "segmentId": "1132460163:8",
+        "kind": "path",
+        "approxLengthM": 2.95,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:29",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067358,
+            35.1752262
+          ],
+          [
+            126.9066932,
+            35.1752856
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465385",
+        "segmentId": "554465385:1",
+        "kind": "path",
+        "approxLengthM": 7.66,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:30",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9066932,
+            35.1752856
+          ],
+          [
+            126.9066846,
+            35.1753748
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465385",
+        "segmentId": "554465385:2",
+        "kind": "path",
+        "approxLengthM": 9.95,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:31",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9066846,
+            35.1753748
+          ],
+          [
+            126.9067037,
+            35.1754671
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465385",
+        "segmentId": "554465385:3",
+        "kind": "path",
+        "approxLengthM": 10.41,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:32",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067037,
+            35.1754671
+          ],
+          [
+            126.9067728,
+            35.1756654
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465385",
+        "segmentId": "554465385:4",
+        "kind": "path",
+        "approxLengthM": 22.93,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:33",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067728,
+            35.1756654
+          ],
+          [
+            126.906814,
+            35.1758128
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465385",
+        "segmentId": "554465385:5",
+        "kind": "path",
+        "approxLengthM": 16.81,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:34",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.906814,
+            35.1758128
+          ],
+          [
+            126.9068192,
+            35.1758303
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465385",
+        "segmentId": "554465385:6",
+        "kind": "path",
+        "approxLengthM": 2,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:35",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9068192,
+            35.1758303
+          ],
+          [
+            126.9067715,
+            35.1758446
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465386",
+        "segmentId": "554465386:1",
+        "kind": "crossing",
+        "approxLengthM": 4.62,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:36",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067715,
+            35.1758446
+          ],
+          [
+            126.9067275,
+            35.1758577
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465386",
+        "segmentId": "554465386:2",
+        "kind": "crossing",
+        "approxLengthM": 4.26,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:37",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9067275,
+            35.1758577
+          ],
+          [
+            126.90677,
+            35.1760312
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:13",
+        "kind": "path",
+        "approxLengthM": 19.68,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:38",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.90677,
+            35.1760312
+          ],
+          [
+            126.9068124,
+            35.1761648
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:12",
+        "kind": "path",
+        "approxLengthM": 15.35,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:39",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9068124,
+            35.1761648
+          ],
+          [
+            126.9068277,
+            35.176213
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:11",
+        "kind": "path",
+        "approxLengthM": 5.54,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:40",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9068277,
+            35.176213
+          ],
+          [
+            126.9068848,
+            35.176435
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:10",
+        "kind": "path",
+        "approxLengthM": 25.22,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:41",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9068848,
+            35.176435
+          ],
+          [
+            126.9069197,
+            35.1765859
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:9",
+        "kind": "path",
+        "approxLengthM": 17.08,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:42",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9069197,
+            35.1765859
+          ],
+          [
+            126.9069371,
+            35.176679
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:8",
+        "kind": "path",
+        "approxLengthM": 10.47,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:43",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9069371,
+            35.176679
+          ],
+          [
+            126.906967,
+            35.1767913
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:7",
+        "kind": "path",
+        "approxLengthM": 12.78,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:44",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.906967,
+            35.1767913
+          ],
+          [
+            126.9070155,
+            35.1769167
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:6",
+        "kind": "path",
+        "approxLengthM": 14.62,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:45",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9070155,
+            35.1769167
+          ],
+          [
+            126.9070343,
+            35.1769928
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "554465408",
+        "segmentId": "554465408:5",
+        "kind": "path",
+        "approxLengthM": 8.63,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:46",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9070343,
+            35.1769928
+          ],
+          [
+            126.9063816,
+            35.1768315
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1120956410",
+        "segmentId": "1120956410:1",
+        "kind": "path",
+        "approxLengthM": 61.98,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:47",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9063816,
+            35.1768315
+          ],
+          [
+            126.9062172,
+            35.1769003
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1373590506",
+        "segmentId": "1373590506:2",
+        "kind": "path",
+        "approxLengthM": 16.79,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:48",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9062172,
+            35.1769003
+          ],
+          [
+            126.9061495,
+            35.1766747
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1373590505",
+        "segmentId": "1373590505:1",
+        "kind": "path",
+        "approxLengthM": 25.83,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:49",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9061495,
+            35.1766747
+          ],
+          [
+            126.905526,
+            35.1768337
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1373590504",
+        "segmentId": "1373590504:2",
+        "kind": "path",
+        "approxLengthM": 59.36,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:50",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.905526,
+            35.1768337
+          ],
+          [
+            126.9055616,
+            35.1770083
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1373590504",
+        "segmentId": "1373590504:1",
+        "kind": "path",
+        "approxLengthM": 19.68,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "candidate:51",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.9055616,
+            35.1770083
+          ],
+          [
+            126.9056478,
+            35.1770538
+          ]
+        ]
+      },
+      "properties": {
+        "wayId": "1373590502",
+        "segmentId": "1373590502:4",
+        "kind": "path",
+        "approxLengthM": 9.33,
+        "verified": false,
+        "measuredSlopePct": null,
+        "measuredWidthM": null,
+        "curbHeightCm": null,
+        "wheelchairSafe": null,
+        "osmLayer": "-1"
+      }
+    }
+  ]
+}

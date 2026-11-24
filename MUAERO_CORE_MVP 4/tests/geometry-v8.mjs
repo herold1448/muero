@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import * as THREE from '../vendor/three.module.js';
+import {parseOSM,combine,toXY,toLL} from '../src/data.js';
+import {footprint,buildingHeight,gradeInfo,geometryAudit} from '../src/geometry.js';
+const raw=n=>JSON.parse(readFileSync(new URL('../data/'+n,import.meta.url)));
+const data=combine(parseOSM(raw('campus_paths.json'),{includeBuildings:false}),parseOSM(raw('campus_buildings.json'),{includePaths:false}));
+const audit=geometryAudit(data);
+let drawn=0,triangles=0,extreme=0;
+for(const b of data.buildings){const ring=footprint(b.coords);if(!ring)continue;const box=Math.max(...ring.map(p=>p.x))-Math.min(...ring.map(p=>p.x)),depth=Math.max(...ring.map(p=>p.z))-Math.min(...ring.map(p=>p.z));if(box*depth>80000){extreme++;continue;}const faces=THREE.ShapeUtils.triangulateShape(ring.map(p=>new THREE.Vector2(p.x,p.z)),[]);if(faces.length!==ring.length-2)continue;drawn++;triangles+=faces.length;}
+assert.equal(data.buildings.length,1422);
+assert.equal(data.ways.length,928);
+assert(drawn>1380,`rendered building count too low: ${drawn}`);
+assert(audit.invalidBuildings<25,`invalid ring count ${audit.invalidBuildings}`);
+assert(triangles>2000);
+assert.deepEqual(toLL(toXY({lat:35.176,lng:126.906})),{lng:126.906,lat:35.176});
+assert.equal(buildingHeight({height:'18 m'}).metres,18);
+assert.equal(buildingHeight({'building:levels':'3'}).source,'OSM 층수 × 3.3m 추정');
+assert.equal(buildingHeight({}).source,'높이 미등록 · 10m 시각화 추정');
+assert.equal(gradeInfo({id:'123',tags:{incline:'5%'}}).source,'OSM 경사 태그 · 실측 불명');
+assert.equal(gradeInfo({id:'123',tags:{}},{'123:1':{incline:'3%',status:'field_checked'}}).source,'관리자 현장 확인 기록');
+console.log('PASS v8 geometry',JSON.stringify({...audit,drawn,triangles,extreme}));
